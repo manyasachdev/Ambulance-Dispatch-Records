@@ -15,7 +15,9 @@ ResponseTime Sheet: Contains information on calls where an ambulance was dispatc
 1. Clone this repository to your local machine. Ensure you have Python 3.7.4 installed.
 2. Install the required dependencies using pip:
 
+    ```
     pip install pandas matplotlib seaborn
+    ```
 
 4. Place your event log and response time datasets in CSV format in the same directory as the script.
 5. Modify the `filepath_resp` and `filepath_event` variables in the script to point to your dataset files.
