@@ -32,9 +32,9 @@ ResponseTime Sheet: Contains information on calls where an ambulance was dispatc
 
 7. The visualizations will be displayed in two popup windows, one after another.
 
-The first contains 3 charts. These include a bar chart showing the total number of calls for each CALL_TYPE, a pie chart showing the distribution of different PRIORITY levels, and a line chart showing the number of calls over time (by month). 
-
-The second window contains 2 heatmaps giving a more in-depth look into the distribution of PRIORITY levels in relation to CALL_TYPE and CHIEF_COMPLAINT.
+    The first contains three charts. These include a bar chart showing the total number of calls for each CALL_TYPE, a pie chart showing the distribution of different PRIORITY levels, and a line chart showing the number of calls over time    (by month). 
+    
+    The second window contains two heatmaps giving a more in-depth look into the distribution of PRIORITY levels in relation to CALL_TYPE and CHIEF_COMPLAINT.
 
 ## File Structure
 
