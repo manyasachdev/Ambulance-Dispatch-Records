@@ -4,10 +4,13 @@ Part of SaveLIFE Foundation's technical evaluation
 This Python script analyzes and visualizes emergency call data from ambulance dispatch records. The dataset consists of two sheets: EventLog and ResponseTime.
 
 Objective:
+
 Develop a Python script to analyze and visualize emergency call data.
 
 Data Description:
+
 EventLog Sheet: Contains records of all calls received by the ambulance operator. Key columns include CALL_TIME, CALL_TYPE, CHIEF_COMPLAINT, and PRIORITY.
+
 ResponseTime Sheet: Contains information on calls where an ambulance was dispatched, including Vehicle_Movement_Time, Vehicle_Atscene_Time, Response_Time, Handover_Time, and Handover_duration.
 
 ## Implementation Details and How to Run:
