@@ -30,11 +30,17 @@ ResponseTime Sheet: Contains information on calls where an ambulance was dispatc
     python visualize_data.py
     ```
 
-7. The visualizations will be displayed in two popup windows, one after another.
+7. The visualizations will be displayed in pop-up windows.
 
-    The first contains three charts. These include a bar chart showing the total number of calls for each CALL_TYPE, a pie chart showing the distribution of different PRIORITY levels, and a line chart showing the number of calls over time    (by month). 
-    
-    The second window contains two heatmaps giving a more in-depth look into the distribution of PRIORITY levels in relation to CALL_TYPE and CHIEF_COMPLAINT.
+    Each graph will appear in a separate pop-up window in the following sequential manner:
+       a) Bar chart showing the total number of calls for each CALL_TYPE
+       b) Pie chart showing the distribution of different PRIORITY levels
+       c) Line chart showing the number of calls over time (by month)
+
+   Two additional heatmaps have been added. These give a more in-depth look into the distribution of PRIORITY levels in relation to CALL_TYPE and CHIEF_COMPLAINT.
+       a) Priority distribution by CALL_TYPE
+       b) Priority distribution by CHIEF_COMPLAINT
+
 
 ## File Structure
 
